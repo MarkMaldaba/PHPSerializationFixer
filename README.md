@@ -146,6 +146,18 @@ Additional unit tests are always welcome.  Either submit a pull request, or crea
 new issue detailing the input string and expected output string and I will implement
 it for you.
 
+# Acknowledgements
+
+The format for PHP serialised strings is not officially documented.  This tool was
+built partly based on experimentation, but also on the very useful descriptions
+provided by the
+[PHP Internals Book](http://www.phpinternalsbook.com/classes_objects/serialization.html),
+a collaborative project to document the mysterious internal workings of PHP.
+
+Prior to uploading to Github, the code was developed from scratch by Mark Clements
+(@MarkMaldaba).  All subsequent contributions are as documented in the commit
+history.
+
 # License
 
 This tool is licensed under the BSD 3-Clause Clear license.  See
