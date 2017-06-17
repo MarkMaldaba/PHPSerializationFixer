@@ -1,6 +1,6 @@
-[<img src="https://travis-ci.org/MarkMaldaba/PHPSerializationFixer.svg?branch=master" align="right" alt="Build Status">](https://travis-ci.org/MarkMaldaba/PHPSerializationFixer)
-
 # PHPSerializationFixer
+
+[<img src="https://travis-ci.org/MarkMaldaba/PHPSerializationFixer.svg?branch=master" align="right" alt="Build Status">](https://travis-ci.org/MarkMaldaba/PHPSerializationFixer)
 A tool to fix corrupted PHP serialised strings.
 
 # Background
