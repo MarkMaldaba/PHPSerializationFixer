@@ -129,6 +129,10 @@ The ````tests```` folder contains unit tests for the tool, which require
 [PHPUnit](https://phpunit.de/) in order to run.  If you have PHPUnit installed, you
 simply need to run ````phpunit .```` from within the ````tests```` directory.
 
+Additional unit tests are always welcome.  Either submit a pull request, or create a
+new issue detailing the input string and expected output string and I will implement
+it for you.
+
 # License
 
 This tool is licensed under the BSD 3-Clause Clear license.  See
