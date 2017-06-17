@@ -1,3 +1,5 @@
+[<img src="https://travis-ci.org/MarkMaldaba/PHPSerializationFixer.svg?branch=master" align="right" alt="Build Status">](https://travis-ci.org/MarkMaldaba/PHPSerializationFixer)
+
 # PHPSerializationFixer
 A tool to fix corrupted PHP serialised strings.
 
