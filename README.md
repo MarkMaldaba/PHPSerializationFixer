@@ -38,12 +38,11 @@ PHP serialised strings.
 In addition, the tool attempts to handle other bad input it encounteres in a
 sensible manner, though other use-cases are less well-defined.
 
-Finally, there is one over-arching principal, which is absolutely key and
-(thankfully) very easy to write unit tests for:
+Finally, there is one over-arching principal, which is absolutely key:
 
 * **The tool must not corrupt valid strings.**
   <br>If provided with a valid PHP serialised string, the tool will
-  return the input string, unmodified.
+  return the input string without modification.
 
 This final point is paramount - it is better that corruption goes unfixed than
 the tool potentially introduces further corruption!
