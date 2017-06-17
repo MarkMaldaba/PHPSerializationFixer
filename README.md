@@ -114,6 +114,11 @@ that is left over after completing the process.
 In general, this output is probably not going to be useful to anyone except me, but
 I am documenting it here, for completeness.
 
+## Compatibility
+
+This script should work on all versions of PHP >= 5.0.  There are no external
+dependencies.
+
 # Contributing
 
 ## Reporting bugs
