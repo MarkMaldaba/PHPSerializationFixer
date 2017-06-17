@@ -101,6 +101,19 @@ Here is an example of how you might use the tool for on-the-fly fixes:
 ?>
 ````
 
+## Debugging
+
+If you pass in ````true```` as the second argument to ````FixPHPSerialisation()````
+then the function will print a small amount of debugging information when it is
+called.
+
+Specifically it will output three lines of text: The input string it was asked to
+fix; the output string containing the fixed serialisation; and any unprocessed input
+that is left over after completing the process.
+
+In general, this output is probably not going to be useful to anyone except me, but
+I am documenting it here, for completeness.
+
 # Contributing
 
 ## Reporting bugs
