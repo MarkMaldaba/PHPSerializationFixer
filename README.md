@@ -106,29 +106,31 @@ Here is an example of how you might use the tool for on-the-fly fixes:
 
 ## Reporting bugs
 
-Please use the Github issue tracker to report any issues you encounter when using the tool.
+Please use the Github issue tracker to report any issues you encounter when using
+the tool.
 
-If you encounter a serialisation that is fixed in a surprising way that you think could be
-improved upon, please include both the original serialisation and the expected output of
-the tool as part of your error report.
+If you encounter a serialisation that is fixed in a surprising way that you think
+could be improved upon, please include both the original serialisation and the
+expected output of the tool as part of your error report.
 
 ## Code contributions
 
 Pull requests for fixes or enhancements will be gratefully received.
 
 This project conforms to a coding standard, but this is not publicly documented.  PRs
-will not be rejected for reasons of coding style (they will simply be fixed as part of the
-merge process) however, please do not attempt to refactor or 'fix' the coding style.  PRs
-that contain refactoring will be rejected.
+will not be rejected for reasons of coding style (they will simply be fixed as part
+of the merge process) however, please do not attempt to refactor or 'fix' the coding
+style.  PRs that contain refactoring will be rejected.
 
 Please make sure you add/update unit tests where appropriate.
 
 ## Testing
 
 The ````tests```` folder contains unit tests for the tool, which require
-[PHPUnit](https://phpunit.de/) in order to run.  If you have PHPUnit installed, you simply
-need to run ````phpunit .```` from within the ````tests```` directory.
+[PHPUnit](https://phpunit.de/) in order to run.  If you have PHPUnit installed, you
+simply need to run ````phpunit .```` from within the ````tests```` directory.
 
 # License
 
-This tool is licensed under the BSD 3-Clause Clear license.  See [LICENSE.txt](LICENSE.txt) for details.
+This tool is licensed under the BSD 3-Clause Clear license.  See
+[LICENSE.txt](LICENSE.txt) for details.
