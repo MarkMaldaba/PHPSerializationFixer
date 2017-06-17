@@ -13,7 +13,7 @@ Oh no!
 
 Anyone who's been in this situation knows that once this happens your choice boils
 down to two options: spend hours going through the data and piecing it back together,
-in order to salvage what you can; or taking the quicker option and wiping the invalid
+in order to salvage what you can; or take the quicker option and wiping the invalid
 data altogether.
 
 Not any more!
