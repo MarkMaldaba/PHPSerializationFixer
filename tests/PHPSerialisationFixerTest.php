@@ -135,7 +135,7 @@ class PHPSerialisationFixerTest extends PHPUnit_Framework_TestCase {
  * @dataProvider ValidSerialisationProvider
  */
 	function testValidSerialisations($OriginalString) {
-		$FixedString = PHPSerialisationFixer::FixPHPSerialisation($OriginalString);
+		$FixedString = PHPSerialisationFixer::Fix($OriginalString);
 		$this->assertSame($OriginalString, $FixedString);
 	}
 
@@ -144,7 +144,7 @@ class PHPSerialisationFixerTest extends PHPUnit_Framework_TestCase {
  * @dataProvider InvalidSerialisationProvider
  */
 	function testInvalidSerialisations($Input, $ExpectedOutput) {
-		$ActualOutput = PHPSerialisationFixer::FixPHPSerialisation($Input);
+		$ActualOutput = PHPSerialisationFixer::Fix($Input);
 		$this->assertSame($ExpectedOutput, $ActualOutput);
 	}
 

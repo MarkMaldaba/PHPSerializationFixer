@@ -62,7 +62,7 @@ class PHPSerialisationFixer {
 	const pSTRINGTYPE_ClassName = 1;
 	const pSTRINGTYPE_CustomObjectContents = 2;
 
-// FixPHPSerialisation()
+// Fix()
 // Fixes bad PHP serialisation in the supplied string, returning the fixed-up
 // version.
 // Valid serialisations will be returned unmodified, however you are advised to
@@ -71,7 +71,7 @@ class PHPSerialisationFixer {
 // Non-strings are also returned unmodified.
 // If you set the $Debug argument to true, then the function will also print some
 // useful diagnostic information.
-	static function FixPHPSerialisation($BadString, $Debug = false) {
+	static function Fix($BadString, $Debug = false) {
 		if ($Debug) {
 			print("\nInput:  ");
 			var_dump($BadString);

@@ -59,7 +59,7 @@ for testing/documentation purposes and are not required to use the tool.
 
 ````php
 require_once("/path/to/classPHPSerialisationFixer.php");
-$FixedString = PHPSerialisationFixer::FixPHPSerialisation($CorruptString);
+$FixedString = PHPSerialisationFixer::Fix($CorruptString);
 ````
 
 ## Recomendations for production code
@@ -89,7 +89,7 @@ Here is an example of how you might use the tool for on-the-fly fixes:
 	if ($Unserialised === false && $Serialised != "b:0;") {
 	// Fix up the string.  You can't recover what isn't there, but this will
 	// extract as much information as possible.
-		$FixedString = PHPSerialisationFixer::FixPHPSerialisation($Serialised);
+		$FixedString = PHPSerialisationFixer::Fix($Serialised);
 
 	// Unserialise the fixed-up string.
 		$Unserialised = unserialize($Serialised);
@@ -105,9 +105,8 @@ Here is an example of how you might use the tool for on-the-fly fixes:
 
 ## Debugging
 
-If you pass in ````true```` as the second argument to ````FixPHPSerialisation()````
-then the function will print a small amount of debugging information when it is
-called.
+If you pass in ````true```` as the second argument to ````Fix()```` then the function
+will print a small amount of debugging information when it is called.
 
 Specifically it will output three lines of text: The input string it was asked to
 fix; the output string containing the fixed serialisation; and any unprocessed input
