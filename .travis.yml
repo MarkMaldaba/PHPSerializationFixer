@@ -1,5 +1,11 @@
+# Use Ubuntu Precise as this supports more PHP versions.  Specifically, it supports
+# PHP 5.2, which Ubuntu Trusty (the alternative option) does not.
 dist: precise
+
+# Set sudo to false, as we don't need it and it gives faster build times.
 sudo: false
+
+# Set up PHP versions that we want to test against.
 language: php
 php:
   - '5.2'
@@ -11,4 +17,6 @@ php:
 # TODO: Provide a shim so that later, namespaced, PHPUnit versions work properly.
 #  - '7.0'
 #  - '7.1'
+
+# Set the command for running our tests.
 script: phpunit tests
