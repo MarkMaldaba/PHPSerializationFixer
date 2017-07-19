@@ -137,8 +137,9 @@ Pull requests for fixes or enhancements will be gratefully received.
 
 This project conforms to a coding standard, but this is not publicly documented.  PRs
 will not be rejected for reasons of coding style (they will simply be fixed as part
-of the merge process) however, please do not attempt to refactor or 'fix' the coding
-style.  PRs that contain refactoring will be rejected.
+of the merge process) however, please do not attempt to refactor or 'fix' any
+existing code to match your favourite coding style.  PRs that contain refactoring
+will be rejected.
 
 Please make sure you add/update unit tests where appropriate.
 
