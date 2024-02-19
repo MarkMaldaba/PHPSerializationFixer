@@ -9,8 +9,11 @@ class PHPSerialisationFixerTest extends PHPUnit_Framework_TestCase {
 
 	function ValidSerialisationProvider() {
 	// Resources serialise the same as integer zero, but we include an example for
-	// completeness.
-		$Resource = imagecreate(20, 20);
+	// completeness.  Choice of function is arbitrary - any non-optional function
+	// that returns a resource on all PHP versions is a viable candidate.  See
+	// https://php.net/manual/en/resource.php for a full list of resource-returning
+	// functions.
+		$Resource = opendir(__DIR__);
 
 	// Set up some self-references, to check these are handled correctly.
 		$arr = array();
